@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.twinnk.model.UserDetails;
 import com.twinnk.restresponse.BaseResponse;
 import com.twinnk.restresponse.RegisterSignInResponse;
