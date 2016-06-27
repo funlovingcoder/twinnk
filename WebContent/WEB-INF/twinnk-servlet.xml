@@ -21,17 +21,17 @@
 	</bean>
 
 	<!-- declare datasource bean -->
-	<bean id="dataSource"
+<!-- 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3306/twinnk" />
 		<property name="username" value="root" />
 		<property name="password" value="root" />
 	</bean>
-
+ -->
 	<!-- declare beans -->
-	<bean id="dao" class="com.twinnk.dao.TwinnkDaoImpl" />
+	<!-- <bean id="dao" class="com.twinnk.dao.TwinnkDaoImpl" />
 	<bean id="service" class="com.twinnk.service.TwinnkServiceImpl" />
-	<bean id="utility" class="com.twinnk.utility.TwinnkUtility" />
+	<bean id="utility" class="com.twinnk.utility.TwinnkUtility" /> -->
 
 </beans>
